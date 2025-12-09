@@ -413,17 +413,21 @@ sleep 10
 CSV_START_TIME=$(date +%s)
 log "INFO" "Converting CPE data to CSV format"
 
-echo "deprecated,cpeName,cpeNameId,lastModified,created,title,refs" > "$CPES_CSV"
-
 python3 - "$CPES_TXT" "$CPES_CSV" << 'PYTHON_SCRIPT' 2>>"$ERR_TMP"
 import json
 import sys
+import csv
 
 input_file = sys.argv[1]
 output_file = sys.argv[2]
 
 try:
-    with open(input_file, 'r') as inf, open(output_file, 'a') as outf:
+    with open(input_file, 'r') as inf, open(output_file, 'w', newline='') as outf:
+        writer = csv.writer(outf, quoting=csv.QUOTE_MINIMAL)
+        
+        # Write header
+        writer.writerow(['deprecated', 'cpeName', 'cpeNameId', 'lastModified', 'created', 'title', 'refs'])
+        
         for line in inf:
             try:
                 data = json.loads(line.strip())
@@ -450,9 +454,8 @@ try:
                 if refs_list:
                     refs = ' '.join([r.get('ref', '') for r in refs_list])
                 
-                # Write CSV line
-                csv_line = f"{deprecated},{cpeName},{cpeNameId},{lastModified},{created},{title},{refs}"
-                outf.write(csv_line + '\n')
+                # Write CSV row with proper escaping
+                writer.writerow([deprecated, cpeName, cpeNameId, lastModified, created, title, refs])
             except Exception as e:
                 print(f"Error processing line: {e}", file=sys.stderr)
                 continue
@@ -480,38 +483,84 @@ else
     exit 4
 fi
 
-# Step 5: Move to canonical names (like EPSS script does)
-log "INFO" "Creating canonical file names..."
+# Step 5: Move CSV to canonical name and clean up JSON/TXT files
+log "INFO" "Creating canonical CSV file..."
 
-# Remove old canonical files and move new ones
-for ext in json txt csv; do
-    CANON_FILE="$DATA_DIR/cpes.$ext"
-    TIMESTAMPED_FILE="$DATA_DIR/cpes_${TIMESTAMP}.$ext"
-    
-    if [ -f "$CANON_FILE" ]; then
-        created="$(stat -c %w "$CANON_FILE" 2>/dev/null || true)"
-        if [ -z "$created" ] || [ "$created" = "-" ]; then
-            created="$(stat -c %y "$CANON_FILE" 2>/dev/null || true)"
-        fi
-        
-        if rm -f "$CANON_FILE" 2>>"$ERR_TMP"; then
-            log "INFO" "Removed old cpes.$ext created at ${created:-<unknown>}"
-        else
-            err_msg="$(cat "$ERR_TMP" 2>/dev/null || true)"
-            log "WARNING" "Failed to remove old cpes.$ext. stderr=${err_msg:-<none>}"
-        fi
+# Move CSV to canonical name
+CANON_CSV="$DATA_DIR/cpes.csv"
+TIMESTAMPED_CSV="$DATA_DIR/cpes_${TIMESTAMP}.csv"
+
+if [ -f "$CANON_CSV" ]; then
+    created="$(stat -c %w "$CANON_CSV" 2>/dev/null || true)"
+    if [ -z "$created" ] || [ "$created" = "-" ]; then
+        created="$(stat -c %y "$CANON_CSV" 2>/dev/null || true)"
     fi
     
-    if mv -f "$TIMESTAMPED_FILE" "$CANON_FILE" 2>>"$ERR_TMP"; then
-        log "INFO" "Created canonical file: $CANON_FILE"
+    if rm -f "$CANON_CSV" 2>>"$ERR_TMP"; then
+        log "INFO" "Removed old cpes.csv created at ${created:-<unknown>}"
     else
         err_msg="$(cat "$ERR_TMP" 2>/dev/null || true)"
-        log "ERROR" "Failed to create $CANON_FILE. stderr=${err_msg:-<none>}"
-        exit 5
+        log "WARNING" "Failed to remove old cpes.csv. stderr=${err_msg:-<none>}"
     fi
-done
+fi
 
-# Step 6: Clean up old timestamped files (keep only canonical ones)
+if mv -f "$TIMESTAMPED_CSV" "$CANON_CSV" 2>>"$ERR_TMP"; then
+    log "INFO" "Created canonical file: $CANON_CSV"
+else
+    err_msg="$(cat "$ERR_TMP" 2>/dev/null || true)"
+    log "ERROR" "Failed to create $CANON_CSV. stderr=${err_msg:-<none>}"
+    exit 5
+fi
+
+# Step 6: Remove JSON and TXT files to save space
+log "INFO" "Removing JSON and TXT files to save disk space..."
+
+# Remove timestamped JSON and TXT files
+TIMESTAMPED_JSON="$DATA_DIR/cpes_${TIMESTAMP}.json"
+TIMESTAMPED_TXT="$DATA_DIR/cpes_${TIMESTAMP}.txt"
+
+if [ -f "$TIMESTAMPED_JSON" ]; then
+    if rm -f "$TIMESTAMPED_JSON" 2>>"$ERR_TMP"; then
+        log "INFO" "Removed JSON file: $TIMESTAMPED_JSON"
+    else
+        err_msg="$(cat "$ERR_TMP" 2>/dev/null || true)"
+        log "WARNING" "Failed to remove $TIMESTAMPED_JSON. stderr=${err_msg:-<none>}"
+    fi
+fi
+
+if [ -f "$TIMESTAMPED_TXT" ]; then
+    if rm -f "$TIMESTAMPED_TXT" 2>>"$ERR_TMP"; then
+        log "INFO" "Removed TXT file: $TIMESTAMPED_TXT"
+    else
+        err_msg="$(cat "$ERR_TMP" 2>/dev/null || true)"
+        log "WARNING" "Failed to remove $TIMESTAMPED_TXT. stderr=${err_msg:-<none>}"
+    fi
+fi
+
+# Remove canonical JSON and TXT files if they exist
+CANON_JSON="$DATA_DIR/cpes.json"
+CANON_TXT="$DATA_DIR/cpes.txt"
+
+if [ -f "$CANON_JSON" ]; then
+    if rm -f "$CANON_JSON" 2>>"$ERR_TMP"; then
+        log "INFO" "Removed canonical JSON file: $CANON_JSON"
+    else
+        err_msg="$(cat "$ERR_TMP" 2>/dev/null || true)"
+        log "WARNING" "Failed to remove $CANON_JSON. stderr=${err_msg:-<none>}"
+    fi
+fi
+
+if [ -f "$CANON_TXT" ]; then
+    if rm -f "$CANON_TXT" 2>>"$ERR_TMP"; then
+        log "INFO" "Removed canonical TXT file: $CANON_TXT"
+    else
+        err_msg="$(cat "$ERR_TMP" 2>/dev/null || true)"
+        log "WARNING" "Failed to remove $CANON_TXT. stderr=${err_msg:-<none>}"
+    fi
+fi
+
+# Clean up any other old timestamped files (JSON, TXT, CSV)
+log "INFO" "Cleaning up any remaining old timestamped files..."
 shopt -s nullglob
 for ext in json txt csv; do
     old_files=("$DATA_DIR"/cpes_*."$ext")

@@ -1,0 +1,323 @@
+2025-12-30T19:18:38.685059 INFO Script started at 2025-12-30_191838
+2025-12-30T19:18:38.685450 INFO Running in FULL mode
+2025-12-30T19:18:38.685776 INFO Log file: /workspaces/-cpes_csv/cpes/logs/cpes_download_2025-12-30_191838.log
+2025-12-30T19:18:38.685897 INFO Fetching initial page to determine total CPE count...
+2025-12-30T19:18:38.869268 INFO Total CPE entries available: 1536474
+2025-12-30T19:18:38.869468 INFO Number of pages to download: 154
+2025-12-30T19:18:38.872422 INFO Downloading page 1/154 (startIndex: 0, attempt: 1/5)
+2025-12-30T19:18:39.786178 INFO Page 1/154 downloaded successfully, entries: 10000
+2025-12-30T19:18:46.786549 INFO Downloading page 2/154 (startIndex: 10000, attempt: 1/5)
+2025-12-30T19:18:47.547188 INFO Page 2/154 downloaded successfully, entries: 10000
+2025-12-30T19:18:54.547642 INFO Downloading page 3/154 (startIndex: 20000, attempt: 1/5)
+2025-12-30T19:18:55.336220 INFO Page 3/154 downloaded successfully, entries: 10000
+2025-12-30T19:19:02.336623 INFO Downloading page 4/154 (startIndex: 30000, attempt: 1/5)
+2025-12-30T19:19:03.239201 INFO Page 4/154 downloaded successfully, entries: 10000
+2025-12-30T19:19:10.239659 INFO Downloading page 5/154 (startIndex: 40000, attempt: 1/5)
+2025-12-30T19:19:11.043743 INFO Page 5/154 downloaded successfully, entries: 10000
+2025-12-30T19:19:18.044174 INFO Downloading page 6/154 (startIndex: 50000, attempt: 1/5)
+2025-12-30T19:19:18.880101 INFO Page 6/154 downloaded successfully, entries: 10000
+2025-12-30T19:19:25.880527 INFO Downloading page 7/154 (startIndex: 60000, attempt: 1/5)
+2025-12-30T19:19:26.635418 INFO Page 7/154 downloaded successfully, entries: 10000
+2025-12-30T19:19:33.635833 INFO Downloading page 8/154 (startIndex: 70000, attempt: 1/5)
+2025-12-30T19:19:34.663799 INFO Page 8/154 downloaded successfully, entries: 10000
+2025-12-30T19:19:41.664174 INFO Downloading page 9/154 (startIndex: 80000, attempt: 1/5)
+2025-12-30T19:19:42.482534 INFO Page 9/154 downloaded successfully, entries: 10000
+2025-12-30T19:19:49.482939 INFO Downloading page 10/154 (startIndex: 90000, attempt: 1/5)
+2025-12-30T19:19:50.436749 INFO Page 10/154 downloaded successfully, entries: 10000
+2025-12-30T19:19:57.437183 INFO Downloading page 11/154 (startIndex: 100000, attempt: 1/5)
+2025-12-30T19:19:58.344791 INFO Page 11/154 downloaded successfully, entries: 10000
+2025-12-30T19:20:05.345207 INFO Downloading page 12/154 (startIndex: 110000, attempt: 1/5)
+2025-12-30T19:20:06.376711 INFO Page 12/154 downloaded successfully, entries: 10000
+2025-12-30T19:20:13.377195 INFO Downloading page 13/154 (startIndex: 120000, attempt: 1/5)
+2025-12-30T19:20:14.612318 INFO Page 13/154 downloaded successfully, entries: 10000
+2025-12-30T19:20:21.612798 INFO Downloading page 14/154 (startIndex: 130000, attempt: 1/5)
+2025-12-30T19:20:22.604567 INFO Page 14/154 downloaded successfully, entries: 10000
+2025-12-30T19:20:29.604970 INFO Downloading page 15/154 (startIndex: 140000, attempt: 1/5)
+2025-12-30T19:20:30.639045 INFO Page 15/154 downloaded successfully, entries: 10000
+2025-12-30T19:20:37.639551 INFO Downloading page 16/154 (startIndex: 150000, attempt: 1/5)
+2025-12-30T19:20:38.639053 INFO Page 16/154 downloaded successfully, entries: 10000
+2025-12-30T19:20:45.639466 INFO Downloading page 17/154 (startIndex: 160000, attempt: 1/5)
+2025-12-30T19:20:46.564755 INFO Page 17/154 downloaded successfully, entries: 10000
+2025-12-30T19:20:53.565207 INFO Downloading page 18/154 (startIndex: 170000, attempt: 1/5)
+2025-12-30T19:20:54.498163 INFO Page 18/154 downloaded successfully, entries: 10000
+2025-12-30T19:21:01.498616 INFO Downloading page 19/154 (startIndex: 180000, attempt: 1/5)
+2025-12-30T19:21:02.381840 INFO Page 19/154 downloaded successfully, entries: 10000
+2025-12-30T19:21:09.382236 INFO Downloading page 20/154 (startIndex: 190000, attempt: 1/5)
+2025-12-30T19:21:10.280754 INFO Page 20/154 downloaded successfully, entries: 10000
+2025-12-30T19:21:17.281230 INFO Downloading page 21/154 (startIndex: 200000, attempt: 1/5)
+2025-12-30T19:21:18.320722 INFO Page 21/154 downloaded successfully, entries: 10000
+2025-12-30T19:21:25.321130 INFO Downloading page 22/154 (startIndex: 210000, attempt: 1/5)
+2025-12-30T19:21:26.147532 INFO Page 22/154 downloaded successfully, entries: 10000
+2025-12-30T19:21:33.147970 INFO Downloading page 23/154 (startIndex: 220000, attempt: 1/5)
+2025-12-30T19:21:34.250134 INFO Page 23/154 downloaded successfully, entries: 10000
+2025-12-30T19:21:41.250637 INFO Downloading page 24/154 (startIndex: 230000, attempt: 1/5)
+2025-12-30T19:21:42.143525 INFO Page 24/154 downloaded successfully, entries: 10000
+2025-12-30T19:21:49.143967 INFO Downloading page 25/154 (startIndex: 240000, attempt: 1/5)
+2025-12-30T19:21:50.090862 INFO Page 25/154 downloaded successfully, entries: 10000
+2025-12-30T19:21:57.091258 INFO Downloading page 26/154 (startIndex: 250000, attempt: 1/5)
+2025-12-30T19:21:58.537964 INFO Page 26/154 downloaded successfully, entries: 10000
+2025-12-30T19:22:05.538396 INFO Downloading page 27/154 (startIndex: 260000, attempt: 1/5)
+2025-12-30T19:22:06.510520 INFO Page 27/154 downloaded successfully, entries: 10000
+2025-12-30T19:22:13.510965 INFO Downloading page 28/154 (startIndex: 270000, attempt: 1/5)
+2025-12-30T19:22:14.418608 INFO Page 28/154 downloaded successfully, entries: 10000
+2025-12-30T19:22:21.419107 INFO Downloading page 29/154 (startIndex: 280000, attempt: 1/5)
+2025-12-30T19:22:22.271635 INFO Page 29/154 downloaded successfully, entries: 10000
+2025-12-30T19:22:29.272059 INFO Downloading page 30/154 (startIndex: 290000, attempt: 1/5)
+2025-12-30T19:22:30.209653 INFO Page 30/154 downloaded successfully, entries: 10000
+2025-12-30T19:22:37.210077 INFO Downloading page 31/154 (startIndex: 300000, attempt: 1/5)
+2025-12-30T19:22:38.143988 INFO Page 31/154 downloaded successfully, entries: 10000
+2025-12-30T19:22:45.144550 INFO Downloading page 32/154 (startIndex: 310000, attempt: 1/5)
+2025-12-30T19:22:46.184573 INFO Page 32/154 downloaded successfully, entries: 10000
+2025-12-30T19:22:53.184962 INFO Downloading page 33/154 (startIndex: 320000, attempt: 1/5)
+2025-12-30T19:22:54.005380 INFO Page 33/154 downloaded successfully, entries: 10000
+2025-12-30T19:23:01.005787 INFO Downloading page 34/154 (startIndex: 330000, attempt: 1/5)
+2025-12-30T19:23:01.919566 INFO Page 34/154 downloaded successfully, entries: 10000
+2025-12-30T19:23:08.919977 INFO Downloading page 35/154 (startIndex: 340000, attempt: 1/5)
+2025-12-30T19:23:10.172147 INFO Page 35/154 downloaded successfully, entries: 10000
+2025-12-30T19:23:17.172583 INFO Downloading page 36/154 (startIndex: 350000, attempt: 1/5)
+2025-12-30T19:23:18.366595 INFO Page 36/154 downloaded successfully, entries: 10000
+2025-12-30T19:23:25.366988 INFO Downloading page 37/154 (startIndex: 360000, attempt: 1/5)
+2025-12-30T19:23:26.349409 INFO Page 37/154 downloaded successfully, entries: 10000
+2025-12-30T19:23:33.349872 INFO Downloading page 38/154 (startIndex: 370000, attempt: 1/5)
+2025-12-30T19:23:34.276486 INFO Page 38/154 downloaded successfully, entries: 10000
+2025-12-30T19:23:41.276891 INFO Downloading page 39/154 (startIndex: 380000, attempt: 1/5)
+2025-12-30T19:23:42.629036 INFO Page 39/154 downloaded successfully, entries: 10000
+2025-12-30T19:23:49.629448 INFO Downloading page 40/154 (startIndex: 390000, attempt: 1/5)
+2025-12-30T19:23:50.455785 INFO Page 40/154 downloaded successfully, entries: 10000
+2025-12-30T19:23:57.456233 INFO Downloading page 41/154 (startIndex: 400000, attempt: 1/5)
+2025-12-30T19:23:58.371698 INFO Page 41/154 downloaded successfully, entries: 10000
+2025-12-30T19:24:05.372169 INFO Downloading page 42/154 (startIndex: 410000, attempt: 1/5)
+2025-12-30T19:24:06.332043 INFO Page 42/154 downloaded successfully, entries: 10000
+2025-12-30T19:24:13.332428 INFO Downloading page 43/154 (startIndex: 420000, attempt: 1/5)
+2025-12-30T19:24:14.258548 INFO Page 43/154 downloaded successfully, entries: 10000
+2025-12-30T19:24:21.258937 INFO Downloading page 44/154 (startIndex: 430000, attempt: 1/5)
+2025-12-30T19:24:22.361197 INFO Page 44/154 downloaded successfully, entries: 10000
+2025-12-30T19:24:29.361643 INFO Downloading page 45/154 (startIndex: 440000, attempt: 1/5)
+2025-12-30T19:24:30.249566 INFO Page 45/154 downloaded successfully, entries: 10000
+2025-12-30T19:24:37.249964 INFO Downloading page 46/154 (startIndex: 450000, attempt: 1/5)
+2025-12-30T19:24:39.489591 INFO Page 46/154 downloaded successfully, entries: 10000
+2025-12-30T19:24:46.490010 INFO Downloading page 47/154 (startIndex: 460000, attempt: 1/5)
+2025-12-30T19:24:47.357712 INFO Page 47/154 downloaded successfully, entries: 10000
+2025-12-30T19:24:54.358180 INFO Downloading page 48/154 (startIndex: 470000, attempt: 1/5)
+2025-12-30T19:24:55.252909 INFO Page 48/154 downloaded successfully, entries: 10000
+2025-12-30T19:25:02.253302 INFO Downloading page 49/154 (startIndex: 480000, attempt: 1/5)
+2025-12-30T19:25:03.850110 INFO Page 49/154 downloaded successfully, entries: 10000
+2025-12-30T19:25:10.850558 INFO Downloading page 50/154 (startIndex: 490000, attempt: 1/5)
+2025-12-30T19:25:11.749155 INFO Page 50/154 downloaded successfully, entries: 10000
+2025-12-30T19:25:18.749567 INFO Downloading page 51/154 (startIndex: 500000, attempt: 1/5)
+2025-12-30T19:25:19.645233 INFO Page 51/154 downloaded successfully, entries: 10000
+2025-12-30T19:25:26.645672 INFO Downloading page 52/154 (startIndex: 510000, attempt: 1/5)
+2025-12-30T19:25:27.736054 INFO Page 52/154 downloaded successfully, entries: 10000
+2025-12-30T19:25:34.736470 INFO Downloading page 53/154 (startIndex: 520000, attempt: 1/5)
+2025-12-30T19:25:35.953780 INFO Page 53/154 downloaded successfully, entries: 10000
+2025-12-30T19:25:42.954210 INFO Downloading page 54/154 (startIndex: 530000, attempt: 1/5)
+2025-12-30T19:25:43.790242 INFO Page 54/154 downloaded successfully, entries: 10000
+2025-12-30T19:25:50.790678 INFO Downloading page 55/154 (startIndex: 540000, attempt: 1/5)
+2025-12-30T19:25:51.709201 INFO Page 55/154 downloaded successfully, entries: 10000
+2025-12-30T19:25:58.709638 INFO Downloading page 56/154 (startIndex: 550000, attempt: 1/5)
+2025-12-30T19:25:59.643783 INFO Page 56/154 downloaded successfully, entries: 10000
+2025-12-30T19:26:06.644217 INFO Downloading page 57/154 (startIndex: 560000, attempt: 1/5)
+2025-12-30T19:26:07.667584 INFO Page 57/154 downloaded successfully, entries: 10000
+2025-12-30T19:26:14.668028 INFO Downloading page 58/154 (startIndex: 570000, attempt: 1/5)
+2025-12-30T19:26:15.799710 INFO Page 58/154 downloaded successfully, entries: 10000
+2025-12-30T19:26:22.800113 INFO Downloading page 59/154 (startIndex: 580000, attempt: 1/5)
+2025-12-30T19:26:23.819787 INFO Page 59/154 downloaded successfully, entries: 10000
+2025-12-30T19:26:30.820206 INFO Downloading page 60/154 (startIndex: 590000, attempt: 1/5)
+2025-12-30T19:26:32.655578 INFO Page 60/154 downloaded successfully, entries: 10000
+2025-12-30T19:26:39.656015 INFO Downloading page 61/154 (startIndex: 600000, attempt: 1/5)
+2025-12-30T19:26:40.655739 INFO Page 61/154 downloaded successfully, entries: 10000
+2025-12-30T19:26:47.656162 INFO Downloading page 62/154 (startIndex: 610000, attempt: 1/5)
+2025-12-30T19:26:49.006007 INFO Page 62/154 downloaded successfully, entries: 10000
+2025-12-30T19:26:56.006409 INFO Downloading page 63/154 (startIndex: 620000, attempt: 1/5)
+2025-12-30T19:26:56.817756 INFO Page 63/154 downloaded successfully, entries: 10000
+2025-12-30T19:27:03.818148 INFO Downloading page 64/154 (startIndex: 630000, attempt: 1/5)
+2025-12-30T19:27:04.787085 INFO Page 64/154 downloaded successfully, entries: 10000
+2025-12-30T19:27:11.787531 INFO Downloading page 65/154 (startIndex: 640000, attempt: 1/5)
+2025-12-30T19:27:12.823795 INFO Page 65/154 downloaded successfully, entries: 10000
+2025-12-30T19:27:19.824193 INFO Downloading page 66/154 (startIndex: 650000, attempt: 1/5)
+2025-12-30T19:27:20.711324 INFO Page 66/154 downloaded successfully, entries: 10000
+2025-12-30T19:27:27.711754 INFO Downloading page 67/154 (startIndex: 660000, attempt: 1/5)
+2025-12-30T19:27:28.861551 INFO Page 67/154 downloaded successfully, entries: 10000
+2025-12-30T19:27:35.861968 INFO Downloading page 68/154 (startIndex: 670000, attempt: 1/5)
+2025-12-30T19:27:36.807807 INFO Page 68/154 downloaded successfully, entries: 10000
+2025-12-30T19:27:43.808232 INFO Downloading page 69/154 (startIndex: 680000, attempt: 1/5)
+2025-12-30T19:27:45.301021 INFO Page 69/154 downloaded successfully, entries: 10000
+2025-12-30T19:27:52.301466 INFO Downloading page 70/154 (startIndex: 690000, attempt: 1/5)
+2025-12-30T19:27:53.164039 INFO Page 70/154 downloaded successfully, entries: 10000
+2025-12-30T19:28:00.164439 INFO Downloading page 71/154 (startIndex: 700000, attempt: 1/5)
+2025-12-30T19:28:01.224320 INFO Page 71/154 downloaded successfully, entries: 10000
+2025-12-30T19:28:08.224778 INFO Downloading page 72/154 (startIndex: 710000, attempt: 1/5)
+2025-12-30T19:28:09.163395 INFO Page 72/154 downloaded successfully, entries: 10000
+2025-12-30T19:28:16.164255 INFO Downloading page 73/154 (startIndex: 720000, attempt: 1/5)
+2025-12-30T19:28:17.166114 INFO Page 73/154 downloaded successfully, entries: 10000
+2025-12-30T19:28:24.166567 INFO Downloading page 74/154 (startIndex: 730000, attempt: 1/5)
+2025-12-30T19:28:25.096069 INFO Page 74/154 downloaded successfully, entries: 10000
+2025-12-30T19:28:32.096506 INFO Downloading page 75/154 (startIndex: 740000, attempt: 1/5)
+2025-12-30T19:28:33.127240 INFO Page 75/154 downloaded successfully, entries: 10000
+2025-12-30T19:28:40.127657 INFO Downloading page 76/154 (startIndex: 750000, attempt: 1/5)
+2025-12-30T19:28:41.001880 INFO Page 76/154 downloaded successfully, entries: 10000
+2025-12-30T19:28:48.002284 INFO Downloading page 77/154 (startIndex: 760000, attempt: 1/5)
+2025-12-30T19:28:48.941431 INFO Page 77/154 downloaded successfully, entries: 10000
+2025-12-30T19:28:55.941843 INFO Downloading page 78/154 (startIndex: 770000, attempt: 1/5)
+2025-12-30T19:28:56.803209 INFO Page 78/154 downloaded successfully, entries: 10000
+2025-12-30T19:29:03.803620 INFO Downloading page 79/154 (startIndex: 780000, attempt: 1/5)
+2025-12-30T19:29:05.140409 INFO Page 79/154 downloaded successfully, entries: 10000
+2025-12-30T19:29:12.140885 INFO Downloading page 80/154 (startIndex: 790000, attempt: 1/5)
+2025-12-30T19:29:13.293157 INFO Page 80/154 downloaded successfully, entries: 10000
+2025-12-30T19:29:20.293602 INFO Downloading page 81/154 (startIndex: 800000, attempt: 1/5)
+2025-12-30T19:29:21.410506 INFO Page 81/154 downloaded successfully, entries: 10000
+2025-12-30T19:29:28.410999 INFO Downloading page 82/154 (startIndex: 810000, attempt: 1/5)
+2025-12-30T19:29:29.410665 INFO Page 82/154 downloaded successfully, entries: 10000
+2025-12-30T19:29:36.411043 INFO Downloading page 83/154 (startIndex: 820000, attempt: 1/5)
+2025-12-30T19:29:37.375252 INFO Page 83/154 downloaded successfully, entries: 10000
+2025-12-30T19:29:44.375668 INFO Downloading page 84/154 (startIndex: 830000, attempt: 1/5)
+2025-12-30T19:29:45.501563 INFO Page 84/154 downloaded successfully, entries: 10000
+2025-12-30T19:29:52.501958 INFO Downloading page 85/154 (startIndex: 840000, attempt: 1/5)
+2025-12-30T19:29:53.580110 INFO Page 85/154 downloaded successfully, entries: 10000
+2025-12-30T19:30:00.580632 INFO Downloading page 86/154 (startIndex: 850000, attempt: 1/5)
+2025-12-30T19:30:02.814975 INFO Page 86/154 downloaded successfully, entries: 10000
+2025-12-30T19:30:09.815399 INFO Downloading page 87/154 (startIndex: 860000, attempt: 1/5)
+2025-12-30T19:30:10.901201 INFO Page 87/154 downloaded successfully, entries: 10000
+2025-12-30T19:30:17.901644 INFO Downloading page 88/154 (startIndex: 870000, attempt: 1/5)
+2025-12-30T19:30:19.006271 INFO Page 88/154 downloaded successfully, entries: 10000
+2025-12-30T19:30:26.006691 INFO Downloading page 89/154 (startIndex: 880000, attempt: 1/5)
+2025-12-30T19:30:32.671519 INFO Page 89/154 downloaded successfully, entries: 10000
+2025-12-30T19:30:39.672088 INFO Downloading page 90/154 (startIndex: 890000, attempt: 1/5)
+2025-12-30T19:30:42.133455 INFO Page 90/154 downloaded successfully, entries: 10000
+2025-12-30T19:30:49.133904 INFO Downloading page 91/154 (startIndex: 900000, attempt: 1/5)
+2025-12-30T19:30:50.119692 INFO Page 91/154 downloaded successfully, entries: 10000
+2025-12-30T19:30:57.120158 INFO Downloading page 92/154 (startIndex: 910000, attempt: 1/5)
+2025-12-30T19:30:58.596824 INFO Page 92/154 downloaded successfully, entries: 10000
+2025-12-30T19:31:05.597258 INFO Downloading page 93/154 (startIndex: 920000, attempt: 1/5)
+2025-12-30T19:31:06.795751 INFO Page 93/154 downloaded successfully, entries: 10000
+2025-12-30T19:31:13.796159 INFO Downloading page 94/154 (startIndex: 930000, attempt: 1/5)
+2025-12-30T19:31:16.878750 INFO Page 94/154 downloaded successfully, entries: 10000
+2025-12-30T19:31:23.879140 INFO Downloading page 95/154 (startIndex: 940000, attempt: 1/5)
+2025-12-30T19:31:24.956193 INFO Page 95/154 downloaded successfully, entries: 10000
+2025-12-30T19:31:31.956647 INFO Downloading page 96/154 (startIndex: 950000, attempt: 1/5)
+2025-12-30T19:31:32.833369 INFO Page 96/154 downloaded successfully, entries: 10000
+2025-12-30T19:31:39.833808 INFO Downloading page 97/154 (startIndex: 960000, attempt: 1/5)
+2025-12-30T19:31:40.818057 INFO Page 97/154 downloaded successfully, entries: 10000
+2025-12-30T19:31:47.818578 INFO Downloading page 98/154 (startIndex: 970000, attempt: 1/5)
+2025-12-30T19:31:48.931470 INFO Page 98/154 downloaded successfully, entries: 10000
+2025-12-30T19:31:55.931924 INFO Downloading page 99/154 (startIndex: 980000, attempt: 1/5)
+2025-12-30T19:31:56.851530 INFO Page 99/154 downloaded successfully, entries: 10000
+2025-12-30T19:32:03.851938 INFO Downloading page 100/154 (startIndex: 990000, attempt: 1/5)
+2025-12-30T19:32:05.002954 INFO Page 100/154 downloaded successfully, entries: 10000
+2025-12-30T19:32:12.003410 INFO Downloading page 101/154 (startIndex: 1000000, attempt: 1/5)
+2025-12-30T19:32:12.866746 INFO Page 101/154 downloaded successfully, entries: 10000
+2025-12-30T19:32:19.867166 INFO Downloading page 102/154 (startIndex: 1010000, attempt: 1/5)
+2025-12-30T19:32:20.815909 INFO Page 102/154 downloaded successfully, entries: 10000
+2025-12-30T19:32:27.816388 INFO Downloading page 103/154 (startIndex: 1020000, attempt: 1/5)
+2025-12-30T19:32:28.700204 INFO Page 103/154 downloaded successfully, entries: 10000
+2025-12-30T19:32:35.700615 INFO Downloading page 104/154 (startIndex: 1030000, attempt: 1/5)
+2025-12-30T19:32:36.756652 INFO Page 104/154 downloaded successfully, entries: 10000
+2025-12-30T19:32:43.757085 INFO Downloading page 105/154 (startIndex: 1040000, attempt: 1/5)
+2025-12-30T19:32:44.808090 INFO Page 105/154 downloaded successfully, entries: 10000
+2025-12-30T19:32:51.808501 INFO Downloading page 106/154 (startIndex: 1050000, attempt: 1/5)
+2025-12-30T19:32:52.846916 INFO Page 106/154 downloaded successfully, entries: 10000
+2025-12-30T19:32:59.847387 INFO Downloading page 107/154 (startIndex: 1060000, attempt: 1/5)
+2025-12-30T19:33:00.804251 INFO Page 107/154 downloaded successfully, entries: 10000
+2025-12-30T19:33:07.804676 INFO Downloading page 108/154 (startIndex: 1070000, attempt: 1/5)
+2025-12-30T19:33:08.953173 INFO Page 108/154 downloaded successfully, entries: 10000
+2025-12-30T19:33:15.953551 INFO Downloading page 109/154 (startIndex: 1080000, attempt: 1/5)
+2025-12-30T19:33:16.951480 INFO Page 109/154 downloaded successfully, entries: 10000
+2025-12-30T19:33:23.951938 INFO Downloading page 110/154 (startIndex: 1090000, attempt: 1/5)
+2025-12-30T19:33:26.747724 INFO Page 110/154 downloaded successfully, entries: 10000
+2025-12-30T19:33:33.748151 INFO Downloading page 111/154 (startIndex: 1100000, attempt: 1/5)
+2025-12-30T19:33:34.666536 INFO Page 111/154 downloaded successfully, entries: 10000
+2025-12-30T19:33:41.666952 INFO Downloading page 112/154 (startIndex: 1110000, attempt: 1/5)
+2025-12-30T19:33:42.860535 INFO Page 112/154 downloaded successfully, entries: 10000
+2025-12-30T19:33:49.860948 INFO Downloading page 113/154 (startIndex: 1120000, attempt: 1/5)
+2025-12-30T19:33:50.858199 INFO Page 113/154 downloaded successfully, entries: 10000
+2025-12-30T19:33:57.858626 INFO Downloading page 114/154 (startIndex: 1130000, attempt: 1/5)
+2025-12-30T19:33:59.243081 INFO Page 114/154 downloaded successfully, entries: 10000
+2025-12-30T19:34:06.243535 INFO Downloading page 115/154 (startIndex: 1140000, attempt: 1/5)
+2025-12-30T19:34:07.334822 INFO Page 115/154 downloaded successfully, entries: 10000
+2025-12-30T19:34:14.335241 INFO Downloading page 116/154 (startIndex: 1150000, attempt: 1/5)
+2025-12-30T19:34:15.256538 INFO Page 116/154 downloaded successfully, entries: 10000
+2025-12-30T19:34:22.257015 INFO Downloading page 117/154 (startIndex: 1160000, attempt: 1/5)
+2025-12-30T19:34:23.251535 INFO Page 117/154 downloaded successfully, entries: 10000
+2025-12-30T19:34:30.251953 INFO Downloading page 118/154 (startIndex: 1170000, attempt: 1/5)
+2025-12-30T19:34:31.234519 INFO Page 118/154 downloaded successfully, entries: 10000
+2025-12-30T19:34:38.234912 INFO Downloading page 119/154 (startIndex: 1180000, attempt: 1/5)
+2025-12-30T19:34:39.713525 INFO Page 119/154 downloaded successfully, entries: 10000
+2025-12-30T19:34:46.714023 INFO Downloading page 120/154 (startIndex: 1190000, attempt: 1/5)
+2025-12-30T19:34:47.699759 INFO Page 120/154 downloaded successfully, entries: 10000
+2025-12-30T19:34:54.700191 INFO Downloading page 121/154 (startIndex: 1200000, attempt: 1/5)
+2025-12-30T19:34:55.604113 INFO Page 121/154 downloaded successfully, entries: 10000
+2025-12-30T19:35:02.604585 INFO Downloading page 122/154 (startIndex: 1210000, attempt: 1/5)
+2025-12-30T19:35:05.031880 INFO Page 122/154 downloaded successfully, entries: 10000
+2025-12-30T19:35:12.032293 INFO Downloading page 123/154 (startIndex: 1220000, attempt: 1/5)
+2025-12-30T19:35:13.189140 INFO Page 123/154 downloaded successfully, entries: 10000
+2025-12-30T19:35:20.189591 INFO Downloading page 124/154 (startIndex: 1230000, attempt: 1/5)
+2025-12-30T19:35:21.172103 INFO Page 124/154 downloaded successfully, entries: 10000
+2025-12-30T19:35:28.172574 INFO Downloading page 125/154 (startIndex: 1240000, attempt: 1/5)
+2025-12-30T19:35:29.281813 INFO Page 125/154 downloaded successfully, entries: 10000
+2025-12-30T19:35:36.282215 INFO Downloading page 126/154 (startIndex: 1250000, attempt: 1/5)
+2025-12-30T19:35:37.414850 INFO Page 126/154 downloaded successfully, entries: 10000
+2025-12-30T19:35:44.415270 INFO Downloading page 127/154 (startIndex: 1260000, attempt: 1/5)
+2025-12-30T19:35:45.319860 INFO Page 127/154 downloaded successfully, entries: 10000
+2025-12-30T19:35:52.320253 INFO Downloading page 128/154 (startIndex: 1270000, attempt: 1/5)
+2025-12-30T19:35:53.330151 INFO Page 128/154 downloaded successfully, entries: 10000
+2025-12-30T19:36:00.330586 INFO Downloading page 129/154 (startIndex: 1280000, attempt: 1/5)
+2025-12-30T19:36:01.407180 INFO Page 129/154 downloaded successfully, entries: 10000
+2025-12-30T19:36:08.407600 INFO Downloading page 130/154 (startIndex: 1290000, attempt: 1/5)
+2025-12-30T19:36:09.736285 INFO Page 130/154 downloaded successfully, entries: 10000
+2025-12-30T19:36:16.737016 INFO Downloading page 131/154 (startIndex: 1300000, attempt: 1/5)
+2025-12-30T19:36:18.035702 INFO Page 131/154 downloaded successfully, entries: 10000
+2025-12-30T19:36:25.036107 INFO Downloading page 132/154 (startIndex: 1310000, attempt: 1/5)
+2025-12-30T19:36:26.323844 INFO Page 132/154 downloaded successfully, entries: 10000
+2025-12-30T19:36:33.324288 INFO Downloading page 133/154 (startIndex: 1320000, attempt: 1/5)
+2025-12-30T19:36:34.437520 INFO Page 133/154 downloaded successfully, entries: 10000
+2025-12-30T19:36:41.438039 INFO Downloading page 134/154 (startIndex: 1330000, attempt: 1/5)
+2025-12-30T19:36:42.559303 INFO Page 134/154 downloaded successfully, entries: 10000
+2025-12-30T19:36:49.559730 INFO Downloading page 135/154 (startIndex: 1340000, attempt: 1/5)
+2025-12-30T19:36:50.479049 INFO Page 135/154 downloaded successfully, entries: 10000
+2025-12-30T19:36:57.479499 INFO Downloading page 136/154 (startIndex: 1350000, attempt: 1/5)
+2025-12-30T19:36:58.450585 INFO Page 136/154 downloaded successfully, entries: 10000
+2025-12-30T19:37:05.451011 INFO Downloading page 137/154 (startIndex: 1360000, attempt: 1/5)
+2025-12-30T19:37:06.555451 INFO Page 137/154 downloaded successfully, entries: 10000
+2025-12-30T19:37:13.555863 INFO Downloading page 138/154 (startIndex: 1370000, attempt: 1/5)
+2025-12-30T19:37:14.587693 INFO Page 138/154 downloaded successfully, entries: 10000
+2025-12-30T19:37:21.588092 INFO Downloading page 139/154 (startIndex: 1380000, attempt: 1/5)
+2025-12-30T19:37:22.759886 INFO Page 139/154 downloaded successfully, entries: 10000
+2025-12-30T19:37:29.760259 INFO Downloading page 140/154 (startIndex: 1390000, attempt: 1/5)
+2025-12-30T19:37:30.890460 INFO Page 140/154 downloaded successfully, entries: 10000
+2025-12-30T19:37:37.890922 INFO Downloading page 141/154 (startIndex: 1400000, attempt: 1/5)
+2025-12-30T19:37:38.933386 INFO Page 141/154 downloaded successfully, entries: 10000
+2025-12-30T19:37:45.933823 INFO Downloading page 142/154 (startIndex: 1410000, attempt: 1/5)
+2025-12-30T19:37:46.898426 INFO Page 142/154 downloaded successfully, entries: 10000
+2025-12-30T19:37:53.898915 INFO Downloading page 143/154 (startIndex: 1420000, attempt: 1/5)
+2025-12-30T19:37:54.806261 INFO Page 143/154 downloaded successfully, entries: 10000
+2025-12-30T19:38:01.806744 INFO Downloading page 144/154 (startIndex: 1430000, attempt: 1/5)
+2025-12-30T19:38:02.896049 INFO Page 144/154 downloaded successfully, entries: 10000
+2025-12-30T19:38:09.896475 INFO Downloading page 145/154 (startIndex: 1440000, attempt: 1/5)
+2025-12-30T19:38:10.683626 INFO Page 145/154 downloaded successfully, entries: 10000
+2025-12-30T19:38:17.684053 INFO Downloading page 146/154 (startIndex: 1450000, attempt: 1/5)
+2025-12-30T19:38:18.446179 INFO Page 146/154 downloaded successfully, entries: 10000
+2025-12-30T19:38:25.446604 INFO Downloading page 147/154 (startIndex: 1460000, attempt: 1/5)
+2025-12-30T19:38:26.148988 INFO Page 147/154 downloaded successfully, entries: 10000
+2025-12-30T19:38:33.149384 INFO Downloading page 148/154 (startIndex: 1470000, attempt: 1/5)
+2025-12-30T19:38:33.804688 INFO Page 148/154 downloaded successfully, entries: 10000
+2025-12-30T19:38:40.805734 INFO Downloading page 149/154 (startIndex: 1480000, attempt: 1/5)
+2025-12-30T19:38:41.456588 INFO Page 149/154 downloaded successfully, entries: 10000
+2025-12-30T19:38:48.457004 INFO Downloading page 150/154 (startIndex: 1490000, attempt: 1/5)
+2025-12-30T19:38:49.322557 INFO Page 150/154 downloaded successfully, entries: 10000
+2025-12-30T19:38:56.322978 INFO Downloading page 151/154 (startIndex: 1500000, attempt: 1/5)
+2025-12-30T19:38:56.938579 INFO Page 151/154 downloaded successfully, entries: 10000
+2025-12-30T19:39:03.938973 INFO Downloading page 152/154 (startIndex: 1510000, attempt: 1/5)
+2025-12-30T19:39:05.041133 INFO Page 152/154 downloaded successfully, entries: 10000
+2025-12-30T19:39:12.042399 INFO Downloading page 153/154 (startIndex: 1520000, attempt: 1/5)
+2025-12-30T19:39:12.730305 INFO Page 153/154 downloaded successfully, entries: 10000
+2025-12-30T19:39:19.730714 INFO Downloading page 154/154 (startIndex: 1530000, attempt: 1/5)
+2025-12-30T19:39:20.231266 INFO Page 154/154 downloaded successfully, entries: 6512
+2025-12-30T19:40:10.291737 INFO JSON file saved: /workspaces/-cpes_csv/cpes/data/cpes_2025-12-30_191838.json (758222387 bytes)
+2025-12-30T19:40:32.878512 INFO TXT file saved: /workspaces/-cpes_csv/cpes/data/cpes_2025-12-30_191838.txt (1536512 entries)
+2025-12-30T19:40:32.878666 INFO Waiting 10 seconds before CSV conversion...
+2025-12-30T19:40:42.878854 INFO Converting CPE data to CSV format
+2025-12-30T19:40:58.183472 INFO CSV file saved: /workspaces/-cpes_csv/cpes/data/cpes_2025-12-30_191838.csv (431014357 bytes)
+2025-12-30T19:40:58.208942 INFO Created canonical file: /workspaces/-cpes_csv/cpes/data/cpes.csv
+2025-12-30T19:41:11.290183 INFO Compressed CSV to: /workspaces/-cpes_csv/cpes/data/cpes.csv.tar.gz
+2025-12-30T19:41:11.362149 INFO Removed uncompressed CSV: /workspaces/-cpes_csv/cpes/data/cpes.csv
+2025-12-30T19:41:11.516558 INFO Script finished successfully

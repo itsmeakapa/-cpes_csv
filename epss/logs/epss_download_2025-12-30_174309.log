@@ -1,0 +1,12 @@
+2025-12-30T17:43:09.330056 INFO Script started
+2025-12-30T17:43:09.330200 INFO Date requested: 2025-12-29
+2025-12-30T17:43:09.330271 INFO Log file: /workspaces/-cpes_csv/epss/logs/epss_download_2025-12-30_174309.log
+2025-12-30T17:43:09.330340 INFO Target URL: https://epss.empiricalsecurity.com/epss_scores-2025-12-29.csv.gz
+2025-12-30T17:43:09.559376 INFO Downloaded and saved to /workspaces/-cpes_csv/epss/data/epss_scores-2025-12-29.csv.gz
+2025-12-30T17:43:09.559512 INFO Waiting 3s before extracting /workspaces/-cpes_csv/epss/data/epss_scores-2025-12-29.csv.gz
+2025-12-30T17:43:12.782586 INFO Extracted to /workspaces/-cpes_csv/epss/data/epss_scores-2025-12-29.csv
+2025-12-30T17:43:12.782691 INFO csv file unzipped successfully
+2025-12-30T17:43:13.902477 INFO Removed the commented rows from the csv file that started with #
+2025-12-30T17:43:13.903232 INFO Created /workspaces/-cpes_csv/epss/data/epss_scores.csv
+2025-12-30T17:43:13.904178 INFO Removed gzip file: epss_scores-2025-12-29.csv.gz
+2025-12-30T17:43:13.904296 INFO Script finished successfully

@@ -1,0 +1,24 @@
+2025-12-30T17:27:52.846866 INFO Script started at 2025-12-30_172752
+2025-12-30T17:27:52.846971 INFO Running in TEST mode
+2025-12-30T17:27:52.847039 INFO Log file: /workspaces/-cpes_csv/cpes/logs/cpes_download_2025-12-30_172752.log
+2025-12-30T17:27:52.847098 INFO Fetching initial page to determine total CPE count...
+2025-12-30T17:27:53.029252 INFO Total CPE entries available: 1536441
+2025-12-30T17:27:53.029360 INFO TEST MODE: Limiting to 5 pages
+2025-12-30T17:27:53.029416 INFO Number of pages to download: 5
+2025-12-30T17:27:53.029675 INFO Downloading page 1/5 (startIndex: 0, attempt: 1/5)
+2025-12-30T17:27:53.776598 INFO Page 1/5 downloaded successfully, entries: 10000
+2025-12-30T17:28:00.776901 INFO Downloading page 2/5 (startIndex: 10000, attempt: 1/5)
+2025-12-30T17:28:01.621900 INFO Page 2/5 downloaded successfully, entries: 10000
+2025-12-30T17:28:08.622294 INFO Downloading page 3/5 (startIndex: 20000, attempt: 1/5)
+2025-12-30T17:28:09.307646 INFO Page 3/5 downloaded successfully, entries: 10000
+2025-12-30T17:28:16.308074 INFO Downloading page 4/5 (startIndex: 30000, attempt: 1/5)
+2025-12-30T17:28:17.425689 INFO Page 4/5 downloaded successfully, entries: 10000
+2025-12-30T17:28:24.426110 INFO Downloading page 5/5 (startIndex: 40000, attempt: 1/5)
+2025-12-30T17:28:25.203322 INFO Page 5/5 downloaded successfully, entries: 10000
+2025-12-30T17:28:33.130620 INFO JSON file saved: /workspaces/-cpes_csv/cpes/data/cpes_2025-12-30_172752.json (16828878 bytes)
+2025-12-30T17:28:33.671153 INFO TXT file saved: /workspaces/-cpes_csv/cpes/data/cpes_2025-12-30_172752.txt (50000 entries)
+2025-12-30T17:28:33.671261 INFO Waiting 10 seconds before CSV conversion...
+2025-12-30T17:28:43.671398 INFO Converting CPE data to CSV format
+2025-12-30T17:28:44.040137 INFO CSV file saved: /workspaces/-cpes_csv/cpes/data/cpes_2025-12-30_172752.csv (8803449 bytes)
+2025-12-30T17:28:44.040338 INFO Created canonical file: /workspaces/-cpes_csv/cpes/data/cpes.csv
+2025-12-30T17:28:44.053774 INFO Script finished successfully
